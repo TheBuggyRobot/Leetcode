@@ -3,7 +3,10 @@
 
 # Approach
 ## Step 1:
-    ```n = ratings.size();``` - as per problem description number of children = the size of the ratings array.
+    ```
+    n = ratings.size();
+    ``` 
+    - as per problem description number of children = the size of the ratings array.
 
     ```if(n <= 1) return n;``` - if there only 1 child or none i.e. n = 0 or 1, we simply return n;
 ## Step 2:
