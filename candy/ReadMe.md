@@ -9,5 +9,12 @@
 
 Each child must have at least one candy. Therefore, it we can assume that the starting value of `result` (the return value for the number of total number of candies) can be `n`.
 ## Step 2:
-    
+For a comprehensive solution to the problem lets consider the following array:
+`ratings = [3,4,5,6,6,5,4,3];`
+In this problem there is 3 different scenerio:
+1) Ratings are ascending (increasing sequence) - when the ratings of the current child `ratings[i]` is less than the next child `ratings[i+1]`. In the example above the increasing part that is from 3 to 6 i.e. indices 0 to 3 of the ratings array `[3,4,5,6, ...]`, the candy distribution will also follow an acesending pattern `[1,2,3,4, ...]`. 
+2) Ratings remain equal
+
+3) Ratings are descending (decreasing sequence) 
+
 ## Step 3:
