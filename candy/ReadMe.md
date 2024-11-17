@@ -1,4 +1,1 @@
-#Problem Description
-
-
-#How I solved it
+![Problem Description](assets/problem_description.bmp)
